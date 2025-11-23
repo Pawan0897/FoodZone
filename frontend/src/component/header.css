@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    font-family: "Poppins", sans-serif !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Oswald", sans-serif !important;
+}
+
+/* header css start */
+header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+}
+
+header .nav-link {
+    font-size: 16px;
+    line-height: 30px;
+    font-weight: 600;
+    text-transform: capitalize;
+    color: #000;
+}
+
+.header-right svg {
+    width: 20px;
+    height: 20px;
+}
+
+.header-right .add-cart-icon span {
+    position: absolute;
+    top: -13px;
+    left: 5px;
+    width: 20px;
+    height: 20px;
+    background-color: #ffa101;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    border-radius: 100px;
+    font-size: 12px;
+    line-height: 22px;
+}
+
+.header-right a {
+    color: #000;
+}
+
+/* header css end */
+
+/* footer css start */
+.list-inline {
+    padding-left: 0;
+    list-style: none;
+}
+.footer-list li {
+    margin-bottom: 10px!important;
+    margin-top: 10px!important;
+}
+.footer-list li a {
+    color: #000;
+    transition: color .3s ease-out;
+    text-decoration: none;
+}
+.footer-list li a:hover {
+    color: #ffa101;
+}
+.footer-widget  h5{
+    font-weight: 600;
+}
+.copyright-text a{
+    color: #ffa101 !important;
+    text-decoration: none;
+}
+/* footer css end */
